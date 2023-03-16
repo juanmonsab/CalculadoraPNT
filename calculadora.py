@@ -13,12 +13,11 @@ operacion = "+"
 
 # Realizar la operación y mostrar el resultado
 if operacion == "+":
-    resultado = num1 + num2
+    resultado = sumar(num1, num2)
     print("El resultado es:", resultado)
 elif operacion == "-":
-    resultado = num1 - num2
+    resultado = restar(num1, num2)
     print("El resultado es:", resultado)
 elif operacion == "*":
-    resultado = num1 * num2
+    resultado = multiplicar(num1, num2)
     print("El resultado es:", resultado)
-
